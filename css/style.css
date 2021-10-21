@@ -1,0 +1,35 @@
+.animasi{
+	animation:anim 2s ease;
+}
+
+@keyframes anim{
+	0%{
+		margin-top: 100px;
+	}
+	100%{
+		margin-top: 0px;
+	}
+}
+.myform input{
+	border: none;
+	width: 340px;
+}
+.myform{
+	border: 1px blue solid;
+	border-radius: 20px;
+	margin: 10px;
+	padding-left: 20px;
+}
+.form2{
+	border-radius: 20px;
+	border: 1px transparen solid;
+}
+#btn{
+	width: 90%;
+	margin: auto;
+}
+@media(max-width: 720px){
+	#blnk{
+		display: none;
+	}
+}
